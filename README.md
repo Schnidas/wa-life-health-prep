@@ -1,6 +1,6 @@
 # Washington Life & Health Exam Prep
 
-A single-page study platform for the Washington Life and Disability Producer exam. It has all 14 chapters in course order (notes, study guide, summary, quiz), cross-chapter review pages, a mixed question bank, and a 150-question practice exam weighted like the state exam.
+A single-page study platform for the Washington Life and Disability Producer exam. It has all 14 chapters in course order (notes, study guide, summary, quiz), cross-chapter review pages, a mixed question bank of 1,118 chapter questions, a 150-question practice exam weighted like the state exam, and four fixed practice exams.
 
 Everything lives in `index.html`. The content is encrypted (AES-256-GCM, key derived from the passcode with PBKDF2), so the page shows nothing until the right passcode is entered. Without the passcode, the file is unreadable, even to someone who views the source.
 
